@@ -1,0 +1,26 @@
+/*
+Meu "primeiro" programa
+Autor: Vinicius Magno
+Data: 27/03/2024
+*/
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+//inicio da função principal
+int main()
+{
+    //calcular o peso de um objeto
+    // p = m * GRAVIDADE
+    float p, m;
+    const float GRAVIDADE = 9.8;
+
+    cout<<"Informe sua massa: ";
+    cin >> m;
+    
+    p = m * GRAVIDADE;
+
+    cout << "PESO eh igual: "<< p << endl;
+    
+    return 0;
+}
